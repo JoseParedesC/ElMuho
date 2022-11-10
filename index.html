@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/styles.css">
+    <title>Johan Valencia</title>
+  </head>
+  <body>
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <img id="img_" src="data:image/png;base64,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" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="float-end" id="navbarNavDropdown">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Iniciar Sesion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Registrate</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Fin Nav Bar -->
+
+  </body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+</html>
